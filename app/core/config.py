@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     APP_NAME: str = "FastAPI Microservice"
     DEBUG: bool = True
     
-    # настройки postgreSQL
+    # настройки postgre
     POSTGRES_USER: str
     POSTGRES_PASSWORD: str
     POSTGRES_DB: str
